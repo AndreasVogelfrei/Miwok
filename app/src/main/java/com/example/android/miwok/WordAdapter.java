@@ -40,7 +40,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
         miwokTextView.setText(currentWord.getmMiwok());
 
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image_view_miwok);
-        imageView.setImageResource(R.mipmap.ic_launcher);
+        imageView.setImageResource(currentWord.getmRessourceId());
 
         return listItemView;
     }
